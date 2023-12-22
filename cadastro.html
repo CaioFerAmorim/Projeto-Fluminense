@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sócio Futebol - Fluminense Football Club</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="cadastro.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Geologica&family=Work+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="center">
+            <div id="box1">
+                <img src="fluemblem.png" />
+            </div>
+            <div clas="nada"></div>
+            <div id="box2">
+                <ul>
+                    <li>
+                        <div id="login">
+                            <img src='login.png' /><a href='login.html' style="color: white;">Login</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="line"></div>
+                    </li>
+                    <li>
+                        <div id="cadastro">
+                            <a href='cadastro.html' style="color: white;">CADASTRE-SE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="lowheader">
+        <div id="box3">
+            <ul>
+                <li>
+                    <div id="content1">
+                        <h1>JÁ SOMOS</h1>
+                    </div>
+                </li>
+                <li>
+                    <div id="number">
+                        <h1>67.566</h1>
+                    </div>
+                </li>
+                <li>
+                    <div id="content2">
+                        <h1>SÓCIOS</h1>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="formulario">
+        <div id="txtform">
+            <h1>Preencha os seus dados para prosseguir com o cadastro</h1>
+        </div>
+        <div id="questform">
+            <form method='post' action='cadastro.py'>
+                <div id="cpf" class="input-container">
+                    <input class="input" size=30 type='text' name='cpf' placeholder='CPF' />
+                </div>
+                <div id="nome" class="input-container">
+                    <input class="input" size=30 type='text' name='nome' placeholder='Nome Completo' />
+                </div>
+                <div id="email" class="input-container">
+                    <input class="input" size=30 type='text' name='email' placeholder='Email' /><br>
+                </div>
+                <div id="matricula" class="input-container">
+                    <input class="input" size=30 type='text' name='matricula' placeholder='Matricula' /><br>
+                </div>
+                <div id="senha" class="input-container">
+                    <input class="input" size=30 type='text' name='senha' placeholder="Senha" /><br>
+                </div>
+                <div id="celular" class="input-container">
+                    <input class="input" size=30 type='text' name='celular' placeholder='Celular' /><br>
+                </div>
+                <div id="nascimento" class="input-container">
+                    <input class="input" size=30 type='nascimento' name='nascimento' placeholder='Nascimento' /><br>
+                </div>
+                <div id="termos" class="input-container">
+                    <input class='input' type="checkbox" name="termos" />
+                </div>
+                <div id="termostxt">Li e concordo com os Termos de Uso e Politica de Privacidade<br>
+                </div>
+                <div id="politica">
+                    <a href='politica.pdf' target="_blank" style="color: #084c2c;">Acessar os Termos de Uso e a Política
+                        de Privacidade.</a>
+                </div>
+            </form>
+            <div id="button">
+            <a href="login.html"><button href="index.html">PROSSEGUIR</button></a>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footerimg">
+            <img src="flufooter.png"/>
+        </div>
+        <div id="icons">
+            <div class="icons1">
+                <a href="https://twitter.com/fluminensefc"target="_blank"><img src="twitter.png" width="23%"/></a>
+            </div>
+            <div class="icons1">
+                <a href="https://www.instagram.com/fluminensefc/"target="_blank"><img src="instagram.png" width="23%"/></a>
+            </div>
+            <div class="icons1">
+                <a href="https://www.youtube.com/user/Fludigital"target="_blank"><img src="youtube.png" width="23%"/></a>
+            </div>
+            <div class="icons1">
+                <a href="https://www.facebook.com/FluminenseFC"target="_blank"><img src="facebook.png" width="23%"/></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
